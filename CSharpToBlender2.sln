@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpToBlender2", "CSharpToBlender2\CSharpToBlender2.csproj", "{AD729159-53DA-44AF-8537-C37B026B4239}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Translators", "Translators", "{D907DB1D-D493-4B85-B106-2A6BAB91BF40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blender", "Blender", "{94E19C95-7878-45EB-8A36-D65793318337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlenderTranslator", "BlenderTranslator\BlenderTranslator.csproj", "{47A71C06-4AD7-4A1D-8FE1-F1FA72CC8CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translators", "Translator\Translators.csproj", "{9F33B120-0D50-4934-BA54-C60DF20F3286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFactory", "IFactory\IFactory.csproj", "{6525F849-4290-40C2-8B19-0E625D66860C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "Plugin\Plugin.csproj", "{1FB5754F-E803-4466-90A9-49DD1C22E790}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugBlender|Any CPU = DebugBlender|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD729159-53DA-44AF-8537-C37B026B4239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD729159-53DA-44AF-8537-C37B026B4239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD729159-53DA-44AF-8537-C37B026B4239}.DebugBlender|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD729159-53DA-44AF-8537-C37B026B4239}.DebugBlender|Any CPU.Build.0 = Debug|Any CPU
+		{AD729159-53DA-44AF-8537-C37B026B4239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD729159-53DA-44AF-8537-C37B026B4239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A71C06-4AD7-4A1D-8FE1-F1FA72CC8CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A71C06-4AD7-4A1D-8FE1-F1FA72CC8CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A71C06-4AD7-4A1D-8FE1-F1FA72CC8CCB}.DebugBlender|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A71C06-4AD7-4A1D-8FE1-F1FA72CC8CCB}.DebugBlender|Any CPU.Build.0 = Debug|Any CPU
+		{47A71C06-4AD7-4A1D-8FE1-F1FA72CC8CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A71C06-4AD7-4A1D-8FE1-F1FA72CC8CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F33B120-0D50-4934-BA54-C60DF20F3286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F33B120-0D50-4934-BA54-C60DF20F3286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F33B120-0D50-4934-BA54-C60DF20F3286}.DebugBlender|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F33B120-0D50-4934-BA54-C60DF20F3286}.DebugBlender|Any CPU.Build.0 = Debug|Any CPU
+		{9F33B120-0D50-4934-BA54-C60DF20F3286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F33B120-0D50-4934-BA54-C60DF20F3286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6525F849-4290-40C2-8B19-0E625D66860C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6525F849-4290-40C2-8B19-0E625D66860C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6525F849-4290-40C2-8B19-0E625D66860C}.DebugBlender|Any CPU.ActiveCfg = Debug|Any CPU
+		{6525F849-4290-40C2-8B19-0E625D66860C}.DebugBlender|Any CPU.Build.0 = Debug|Any CPU
+		{6525F849-4290-40C2-8B19-0E625D66860C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6525F849-4290-40C2-8B19-0E625D66860C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB5754F-E803-4466-90A9-49DD1C22E790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB5754F-E803-4466-90A9-49DD1C22E790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB5754F-E803-4466-90A9-49DD1C22E790}.DebugBlender|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB5754F-E803-4466-90A9-49DD1C22E790}.DebugBlender|Any CPU.Build.0 = Debug|Any CPU
+		{1FB5754F-E803-4466-90A9-49DD1C22E790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB5754F-E803-4466-90A9-49DD1C22E790}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94E19C95-7878-45EB-8A36-D65793318337} = {D907DB1D-D493-4B85-B106-2A6BAB91BF40}
+		{47A71C06-4AD7-4A1D-8FE1-F1FA72CC8CCB} = {94E19C95-7878-45EB-8A36-D65793318337}
+		{9F33B120-0D50-4934-BA54-C60DF20F3286} = {D907DB1D-D493-4B85-B106-2A6BAB91BF40}
+		{6525F849-4290-40C2-8B19-0E625D66860C} = {D907DB1D-D493-4B85-B106-2A6BAB91BF40}
+	EndGlobalSection
+EndGlobal
